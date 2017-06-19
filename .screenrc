@@ -1,13 +1,5 @@
 # $Id: screenrc,v 1.15 2003/10/08 11:39:03 zal Exp $
 #
-# /etc/screenrc
-#
-#   This is the system wide screenrc.
-#
-#   You can use this file to change the default behavior of screen system wide
-#   or copy it to ~/.screenrc and use it as a starting point for your own
-#   settings.
-#
 #   Commands in this file are used to set options, bind screen functions to
 #   keys, redefine terminal capabilities, and to automatically establish one or
 #   more windows at the beginning of your screen session.
@@ -102,7 +94,10 @@ defnonblock 5
 #   in the next window, and then open mutt and tail in windows 8 and 9
 #   respectively.
 #
+#thought this would be useful but it go very annoying very fast 
 # screen htop
+
+
 # screen -t monkey ssh monkey
 # screen -t mail 8 mutt
 # screen -t daemon 9 tail -f /var/log/daemon.log
