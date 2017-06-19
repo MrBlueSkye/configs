@@ -2,3 +2,6 @@
 my .bashrc
 
 mainly made to test git
+
+
+ART
