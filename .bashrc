@@ -1,7 +1,7 @@
 #alias
 alias c='clear'
 alias vi='vim'
-
+alias grep='grep --color=auto'
 #ulimited bash history
 export HISTFILESIZE=
 export HISTSIZE=
