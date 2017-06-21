@@ -7,7 +7,8 @@
 #   This is not a comprehensive list of options, look at the screen manual for
 #   details on everything that you can put in this file.
 #
-
+#   I have obviosly not wrote this screenrc from scratch. I copied over the deafult
+#   one that came with ubuntu server 16.04. 
 # ------------------------------------------------------------------------------
 # SCREEN SETTINGS
 # ------------------------------------------------------------------------------
@@ -25,7 +26,10 @@ vbell_msg "   Wuff  ----  Wuff!!  "
 #this bell is the worst thing a human has ever made
 
 # define a bigger scrollback, default is 100 lines
-defscrollback 1024
+defscrollback 1024 
+
+#supress trailing balcklines making scrollback have usefull things
+#compacthist on
 
 # ------------------------------------------------------------------------------
 # SCREEN KEYBINDINGS
@@ -88,18 +92,12 @@ defnonblock 5
 # STARTUP SCREENS
 # ------------------------------------------------------------------------------
 
-# Example of automatically running some programs in windows on screen startup.
-#
-#   The following will open top in the first window, an ssh session to monkey
-#   in the next window, and then open mutt and tail in windows 8 and 9
-#   respectively.
-#
+
 #thought this would be useful but it go very annoying very fast 
+#leaving here as an example of how to startthings on startup
+#if I where to add another command it would open in a serperate screen
+
+
 # screen htop
-
-
-# screen -t monkey ssh monkey
-# screen -t mail 8 mutt
-# screen -t daemon 9 tail -f /var/log/daemon.log
 
 
