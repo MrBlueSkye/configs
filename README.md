@@ -1,8 +1,5 @@
 # configs
 
-*my config files*
+*my dotfiles*
 
-
-mainly made to test git
-
-
+may eventally be more then dotfiles
