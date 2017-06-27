@@ -1,6 +1,8 @@
 #alias
 alias c='clear'
 alias vi='vim'
+alias nano='vim' #meme
+
 alias grep='grep --color=auto'
 #ulimited bash history
 export HISTFILESIZE=
