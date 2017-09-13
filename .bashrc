@@ -2,6 +2,7 @@
 alias c='clear'
 alias vi='vim'
 alias nano='vim' #meme
+alias info='pinfo' #pinfo is info styled like lynx
 
 alias grep='grep --color=auto'
 #ulimited bash history
