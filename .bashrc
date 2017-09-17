@@ -3,6 +3,8 @@ alias c='clear'
 alias vi='vim'
 alias nano='vim' #meme
 alias info='pinfo' #pinfo is info styled like lynx
+#this gets a complete website to be read later
+alias wgetwebsite='wget --mirror --convert-links --adjust-extension --page-requisites --no-parent'
 
 alias grep='grep --color=auto'
 #ulimited bash history
