@@ -38,6 +38,11 @@ call plug#begin('~/.vim/plugged')
 Plug 'https://github.com/python-mode/python-mode'
 
 Plug 'dylanaraps/wal.vim'
+
+
+Plug 'pearofducks/ansible-vim'
+
+
 call plug#end()
 
 colorscheme wal
