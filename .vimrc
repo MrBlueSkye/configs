@@ -5,6 +5,7 @@ set number
 "very good command and useful with the d command
 set relativenumber
 
+
 "tab settings
 set tabstop=4 "tabs expand to 4 spaces
 set shiftwidth=4
@@ -25,6 +26,13 @@ set wrap
 set textwidth=79
 set formatoptions=qrn1
 
+
+"keybindings
+"<CR> is a carrige return(?)
+"remove highlighting (no highlight is the idea I am going for here)
+map nh :noh<CR>
+
+
 "install vimplug
 
 if empty(glob('~/.vim/autoload/plug.vim'))
@@ -39,9 +47,9 @@ Plug 'https://github.com/python-mode/python-mode'
 
 Plug 'dylanaraps/wal.vim'
 
-
 Plug 'pearofducks/ansible-vim'
 
+Plug 'lervag/vimtex'
 
 call plug#end()
 

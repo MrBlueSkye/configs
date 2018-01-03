@@ -10,6 +10,9 @@ fi
 
 # User specific aliases and functions
 
+#vi mode (in insert mode by default)
+
+
 #alias
 alias c='clear'
 alias vi='vim'
