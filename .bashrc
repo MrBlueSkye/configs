@@ -45,6 +45,9 @@ export EDITOR="$VISUAL"
 #change the colour scheme
 wal -t -R
 
-
 #explicit clear
 clear
+
+#PS1 (promt)
+export PS1="\e[1;34m\u@\h \e[1;31m\w $\e[m "
+
