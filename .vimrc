@@ -51,6 +51,13 @@ Plug 'pearofducks/ansible-vim'
 
 Plug 'lervag/vimtex'
 
+Plug 'chikamichi/mediawiki.vim'
+
+Plug 'flazz/vim-colorschemes'
+
 call plug#end()
 
 colorscheme wal
+"change to the molaki colour scheme once I have gotten rid of wal
+"colorscheme molokai
+
