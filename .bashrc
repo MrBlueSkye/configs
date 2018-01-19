@@ -51,3 +51,11 @@ clear
 #PS1 (promt)
 export PS1="\e[1;34m\u@\h \e[1;31m\w $\e[m "
 
+#Find Commands
+grep -rnw * -e "string"	- search all sub directories/files for string
+find / -name "file name" 	- searches subdirectories for a file
+
+#Essential commands
+sudo apt-get install cowsay && cowsay -f ghostbusters Who you Gonna Call
+telnet towel.blinkenlights.nl
+rig
